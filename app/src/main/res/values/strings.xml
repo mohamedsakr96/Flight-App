@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Flight App</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_share">Share It</string>
+    <string name="fh_name">Flight Price History</string>
+    <string name="ct_name">Cheapest Tickets</string>
+    <string name="pd_name">Popular Destination</string>
+    <string name="ad_name">Alternative Directions Price</string>
+    <string name="title_activity_flight_history">Flight History</string>
+    <string name="title_activity_cheapest_tickets">Cheapest Tickets</string>
+    <string name="title_activity_popular_destination">Popular Destination</string>
+    <string name="title_activity_alternative_directions">Alternative Directions</string>
+    <string name="origin_name">Enter Your Origin</string>
+    <string name="destination_name">Enter Your Destination</string>
+    <string name="depart_date_txt">Depart Date</string>
+    <string name="return_date_txt">Return Date</string>
+    <string name="title_activity_popular_destinations_details">Popular Destinations Details</string>
+    <string name="title_activity_alternative_directions_details">Alternative Directions Details</string>
+    <string name="title_activity_cheapest_tickets_details">Cheapest Tickets Details</string>
+    <string name="title_activity_flight_history_details">Flight History Details</string>
+    <string name="title_activity_details">Details</string>
+    <string name="send_to">Send To</string>
+
+</resources>

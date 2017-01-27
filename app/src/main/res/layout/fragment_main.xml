@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context="com.example.mohamed.fligthapp.MainActivityFragment"
+    tools:showIn="@layout/activity_main"
+    android:background="@mipmap/ic">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:text="@string/ct_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="78dp"
+        android:id="@+id/ct_button"
+        android:layout_below="@+id/fh_button"
+        android:onClick="showCheapestTickets"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="@string/fh_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fh_button"
+        android:onClick="showFlightHistory"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentTop="true"
+
+
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="@string/pd_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ct_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:onClick="showPopularDestination"
+        android:id="@+id/pd_button" />
+
+    <Button
+        android:text="@string/ad_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pd_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:onClick="showAlternativeDirections"
+        android:id="@+id/ad_button" />
+    </RelativeLayout>
+
+</ScrollView>
